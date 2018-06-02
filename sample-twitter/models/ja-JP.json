@@ -1,0 +1,36 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "ツイッター読み上げ",
+      "types": [
+
+      ],
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+
+          ]
+        },
+        {
+          "name": "TwitterIntent",
+          "slots": [
+
+          ],
+          "samples": [
+            "ツイートを読み上げて",
+            "ツイートを読んで",
+            "ツイートが知りたい",
+            "最新のツイートは"
+          ]
+        }
+      ]
+    }
+  }
+}
